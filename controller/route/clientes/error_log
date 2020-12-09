@@ -1,0 +1,8 @@
+[09-May-2020 11:13:20 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function usuarioId() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/controller/route/clientes/buscarCliente.php:32
+Stack trace:
+#0 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/controller/route/clientes/buscarCliente.php on line 32
+[09-May-2020 11:13:52 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function getUsuario() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/controller/route/clientes/buscarCliente.php:48
+Stack trace:
+#0 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/controller/route/clientes/buscarCliente.php on line 48

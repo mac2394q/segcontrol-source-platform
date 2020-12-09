@@ -1,0 +1,155 @@
+[28-Jan-2019 15:51:55 UTC] PHP Warning:  include_once(/home1/portalxn/public_html/segcontrol/directorio.php): failed to open stream: No such file or directory in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 4
+[28-Jan-2019 15:51:55 UTC] PHP Warning:  include_once(): Failed opening '/home1/portalxn/public_html/segcontrol/directorio.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 4
+[28-Jan-2019 15:51:55 UTC] PHP Warning:  require_once(CONTROLLER_PATHusuariosController.php): failed to open stream: No such file or directory in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 5
+[28-Jan-2019 15:51:55 UTC] PHP Fatal error:  require_once(): Failed opening required 'CONTROLLER_PATHusuariosController.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 5
+[29-Jan-2019 14:53:02 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php:24
+Stack trace:
+#0 /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/serviciosDao.php(76): DataSource->ejecutarConsulta('select * from s...')
+#1 /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/administrador.php(58): serviciosDao->nMinutavencidos()
+#2 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php on line 24
+[29-Jan-2019 15:00:08 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php:24
+Stack trace:
+#0 /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/serviciosDao.php(132): DataSource->ejecutarConsulta('select * from s...')
+#1 /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/administrador.php(57): serviciosDao->nMinutaPronto()
+#2 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php on line 24
+[29-Jan-2019 20:06:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php:24
+Stack trace:
+#0 /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/serviciosDao.php(265): DataSource->ejecutarConsulta('SELECT * FROM `...')
+#1 /home1/portalxn/public_html/segcontrol/app/segcontrol/controller/serviciosController.php(67): serviciosDao->listaTodosServiciosActivos()
+#2 /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/administrador.php(27): serviciosController->listaTodosServiciosActivos()
+#3 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php on line 24
+[16-Mar-2019 13:58:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php:24
+Stack trace:
+#0 /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/serviciosDao.php(265): DataSource->ejecutarConsulta('SELECT * FROM `...')
+#1 /home1/portalxn/public_html/segcontrol/app/segcontrol/controller/serviciosController.php(67): serviciosDao->listaTodosServiciosActivos()
+#2 /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/administrador.php(27): serviciosController->listaTodosServiciosActivos()
+#3 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php on line 24
+[16-Mar-2019 09:10:06 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php:24
+Stack trace:
+#0 /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/serviciosDao.php(76): DataSource->ejecutarConsulta('select * from s...')
+#1 /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/administrador.php(58): serviciosDao->nMinutavencidos()
+#2 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php on line 24
+[16-Mar-2019 14:46:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php:24
+Stack trace:
+#0 /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/serviciosDao.php(265): DataSource->ejecutarConsulta('SELECT * FROM `...')
+#1 /home1/portalxn/public_html/segcontrol/app/segcontrol/controller/serviciosController.php(67): serviciosDao->listaTodosServiciosActivos()
+#2 /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/administrador.php(27): serviciosController->listaTodosServiciosActivos()
+#3 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php on line 24
+[30-Mar-2019 15:52:11 UTC] PHP Warning:  include_once(/home1/portalxn/public_html/segcontrol/directorio.php): failed to open stream: No such file or directory in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 4
+[30-Mar-2019 15:52:11 UTC] PHP Warning:  include_once(): Failed opening '/home1/portalxn/public_html/segcontrol/directorio.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 4
+[30-Mar-2019 15:52:11 UTC] PHP Warning:  require_once(CONTROLLER_PATHusuariosController.php): failed to open stream: No such file or directory in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 5
+[30-Mar-2019 15:52:11 UTC] PHP Fatal error:  require_once(): Failed opening required 'CONTROLLER_PATHusuariosController.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 5
+[04-Apr-2019 13:56:52 UTC] PHP Warning:  include_once(/home1/portalxn/public_html/segcontrol/directorio.php): failed to open stream: No such file or directory in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 4
+[04-Apr-2019 13:56:52 UTC] PHP Warning:  include_once(): Failed opening '/home1/portalxn/public_html/segcontrol/directorio.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 4
+[04-Apr-2019 13:56:52 UTC] PHP Warning:  require_once(CONTROLLER_PATHusuariosController.php): failed to open stream: No such file or directory in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 5
+[04-Apr-2019 13:56:52 UTC] PHP Fatal error:  require_once(): Failed opening required 'CONTROLLER_PATHusuariosController.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 5
+[06-Apr-2019 16:49:02 UTC] PHP Warning:  include_once(/home1/portalxn/public_html/segcontrol/directorio.php): failed to open stream: No such file or directory in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 4
+[06-Apr-2019 16:49:02 UTC] PHP Warning:  include_once(): Failed opening '/home1/portalxn/public_html/segcontrol/directorio.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 4
+[06-Apr-2019 16:49:02 UTC] PHP Warning:  require_once(CONTROLLER_PATHusuariosController.php): failed to open stream: No such file or directory in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 5
+[06-Apr-2019 16:49:02 UTC] PHP Fatal error:  require_once(): Failed opening required 'CONTROLLER_PATHusuariosController.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 5
+[09-Apr-2019 17:30:30 UTC] PHP Warning:  include_once(/home1/portalxn/public_html/segcontrol/directorio.php): failed to open stream: No such file or directory in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 4
+[09-Apr-2019 17:30:30 UTC] PHP Warning:  include_once(): Failed opening '/home1/portalxn/public_html/segcontrol/directorio.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 4
+[09-Apr-2019 17:30:30 UTC] PHP Warning:  require_once(CONTROLLER_PATHusuariosController.php): failed to open stream: No such file or directory in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 5
+[09-Apr-2019 17:30:30 UTC] PHP Fatal error:  require_once(): Failed opening required 'CONTROLLER_PATHusuariosController.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 5
+[11-Apr-2019 17:26:40 UTC] PHP Warning:  include_once(/home1/portalxn/public_html/segcontrol/directorio.php): failed to open stream: No such file or directory in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 4
+[11-Apr-2019 17:26:40 UTC] PHP Warning:  include_once(): Failed opening '/home1/portalxn/public_html/segcontrol/directorio.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 4
+[11-Apr-2019 17:26:40 UTC] PHP Warning:  require_once(CONTROLLER_PATHusuariosController.php): failed to open stream: No such file or directory in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 5
+[11-Apr-2019 17:26:40 UTC] PHP Fatal error:  require_once(): Failed opening required 'CONTROLLER_PATHusuariosController.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php on line 5
+[17-Sep-2019 20:46:26 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[17-Sep-2019 15:46:26 america/bogota] PHP Fatal error:  Cannot access empty property in /home1/portalxn/public_html/segcontrol/app/segcontrol/model/vehiculo.php on line 12
+[17-Sep-2019 20:46:28 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[17-Sep-2019 15:46:28 america/bogota] PHP Fatal error:  Cannot access empty property in /home1/portalxn/public_html/segcontrol/app/segcontrol/model/vehiculo.php on line 12
+[17-Sep-2019 15:46:33 america/bogota] PHP Fatal error:  Cannot access empty property in /home1/portalxn/public_html/segcontrol/app/segcontrol/model/vehiculo.php on line 12
+[17-Sep-2019 15:47:40 america/bogota] PHP Fatal error:  Cannot access empty property in /home1/portalxn/public_html/segcontrol/app/segcontrol/model/vehiculo.php on line 12
+[17-Sep-2019 15:53:15 america/bogota] PHP Fatal error:  Cannot access empty property in /home1/portalxn/public_html/segcontrol/app/segcontrol/model/vehiculo.php on line 12
+[17-Sep-2019 15:53:59 america/bogota] PHP Fatal error:  Cannot access empty property in /home1/portalxn/public_html/segcontrol/app/segcontrol/model/vehiculo.php on line 12
+[17-Sep-2019 15:54:41 america/bogota] PHP Fatal error:  Cannot access empty property in /home1/portalxn/public_html/segcontrol/app/segcontrol/model/vehiculo.php on line 12
+[17-Sep-2019 16:00:11 america/bogota] PHP Fatal error:  Cannot access empty property in /home1/portalxn/public_html/segcontrol/app/segcontrol/model/vehiculo.php on line 12
+[19-Oct-2019 11:00:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php:24
+Stack trace:
+#0 /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/serviciosDao.php(265): DataSource->ejecutarConsulta('SELECT * FROM `...')
+#1 /home1/portalxn/public_html/segcontrol/app/segcontrol/controller/serviciosController.php(67): serviciosDao->listaTodosServiciosActivos()
+#2 /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/administrador.php(27): serviciosController->listaTodosServiciosActivos()
+#3 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php on line 24
+[19-Oct-2019 11:00:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php:24
+Stack trace:
+#0 /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/serviciosDao.php(265): DataSource->ejecutarConsulta('SELECT * FROM `...')
+#1 /home1/portalxn/public_html/segcontrol/app/segcontrol/controller/serviciosController.php(67): serviciosDao->listaTodosServiciosActivos()
+#2 /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/administrador.php(27): serviciosController->listaTodosServiciosActivos()
+#3 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php on line 24
+[02-Nov-2019 06:37:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php:24
+Stack trace:
+#0 /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/serviciosDao.php(265): DataSource->ejecutarConsulta('SELECT * FROM `...')
+#1 /home1/portalxn/public_html/segcontrol/app/segcontrol/controller/serviciosController.php(67): serviciosDao->listaTodosServiciosActivos()
+#2 /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/administrador.php(27): serviciosController->listaTodosServiciosActivos()
+#3 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php on line 24
+[14-Dec-2019 04:17:44 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php:24
+Stack trace:
+#0 /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/clienteDao.php(95): DataSource->ejecutarConsulta('SELECT * FROM `...', Array)
+#1 /home1/portalxn/public_html/segcontrol/app/segcontrol/controller/clienteController.php(36): clienteDao->clienteId('15')
+#2 /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/mitabla.php(145): clienteController->clienteId('15')
+#3 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php on line 24
+[20-Jan-2020 09:32:02 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php:24
+Stack trace:
+#0 /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/conductorDao.php(48): DataSource->ejecutarConsulta('SELECT * FROM `...', Array)
+#1 /home1/portalxn/public_html/segcontrol/app/segcontrol/controller/conductorController.php(32): conductorDao->listaConductorId('1107')
+#2 /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/mitabla.php(148): conductorController->ConductorId('1107')
+#3 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php on line 24
+[03-May-2020 12:23:54 america/bogota] PHP Fatal error:  Uncaught Error: Cannot access empty property in /home1/portalxn/public_html/segcontrol/app/segcontrol/model/vehiculo.php:12
+Stack trace:
+#0 /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/vehiculoDao.php(47): vehiculo->__construct('1208', NULL, 'SXV587', 'FREITHLINER', 'BLANCO', 'R38470')
+#1 /home1/portalxn/public_html/segcontrol/app/segcontrol/controller/vehiculoController.php(32): vehiculoDao->listaVehiculoId('1208')
+#2 /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/administrador.php(101): vehiculoController->vehiculoId('1208')
+#3 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/model/vehiculo.php on line 12
+[09-May-2020 12:08:31 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php:24
+Stack trace:
+#0 /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/clienteDao.php(198): DataSource->ejecutarConsulta('SELECT * FROM `...', Array)
+#1 /home1/portalxn/public_html/segcontrol/app/segcontrol/controller/clienteController.php(51): clienteDao->clienteIdUsuario('127')
+#2 /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php(36): clienteController->clienteIdUsuario('127')
+#3 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php on line 24
+[09-May-2020 12:08:35 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php:24
+Stack trace:
+#0 /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/clienteDao.php(198): DataSource->ejecutarConsulta('SELECT * FROM `...', Array)
+#1 /home1/portalxn/public_html/segcontrol/app/segcontrol/controller/clienteController.php(51): clienteDao->clienteIdUsuario('127')
+#2 /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/master.php(36): clienteController->clienteIdUsuario('127')
+#3 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php on line 24
+[09-May-2020 13:09:02 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php:24
+Stack trace:
+#0 /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/serviciosDao.php(132): DataSource->ejecutarConsulta('select * from s...')
+#1 /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/administrador.php(57): serviciosDao->nMinutaPronto()
+#2 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php on line 24
+[09-May-2020 13:09:15 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php:24
+Stack trace:
+#0 /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/serviciosDao.php(132): DataSource->ejecutarConsulta('select * from s...')
+#1 /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/administrador.php(57): serviciosDao->nMinutaPronto()
+#2 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php on line 24
+[03-Aug-2020 17:50:53 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php:24
+Stack trace:
+#0 /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/clienteDao.php(95): DataSource->ejecutarConsulta('SELECT * FROM `...', Array)
+#1 /home1/portalxn/public_html/segcontrol/app/segcontrol/controller/clienteController.php(36): clienteDao->clienteId('15')
+#2 /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/administrador.php(95): clienteController->clienteId('15')
+#3 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php on line 24
+[17-Oct-2020 19:31:44 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php:24
+Stack trace:
+#0 /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/vehiculoDao.php(37): DataSource->ejecutarConsulta('SELECT * FROM `...', Array)
+#1 /home1/portalxn/public_html/segcontrol/app/segcontrol/controller/vehiculoController.php(32): vehiculoDao->listaVehiculoId('1430')
+#2 /home1/portalxn/public_html/segcontrol/app/segcontrol/vistas/administrador.php(101): vehiculoController->vehiculoId('1430')
+#3 {main}
+  thrown in /home1/portalxn/public_html/segcontrol/app/segcontrol/persistencia/DataSource.php on line 24

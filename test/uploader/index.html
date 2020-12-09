@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Como Subir Archivos en Php</title>
+<meta name="description" content="Ejemplo practico de como subir archivos en PHP.">
+<meta name="keywords" content="como,subir,archivos,en,php">
+
+<style>
+html{
+	background-color:#fff;
+	color:#000;
+}
+#panel{
+	display:block;
+	position:absolute;
+	width:600px;
+	left:50%;
+	margin-top:200px;
+	margin-left:-300px;
+	text-align:center;
+}
+#btn_subir{
+	float:right;
+}
+</style>
+</head>
+<body>
+<center><h1> | Como subir Archivos en PHP | </h1></center>
+<center><h2>Para consultar el Tutorial de esta pagina visita:</h2></center>
+<center><h3><a href="http://jonathanmelgoza.com/blog/subida-de-archivos-en-php/" target="_blank">http://jonathanmelgoza.com/blog/subida-de-archivos-en-php/</a></h3></center>
+<center><p style="color:#FF0000;">Puedes subir archivos de imagen en formato gif, jpg y jpeg solamente, ademas no debe ser mayor de 25Kb.</p></center>
+<div id="panel">
+<form enctype="multipart/form-data" action="subir-archivos.php" method="POST"> 
+<input type="hidden" name="MAX_FILE_SIZE" value="250000" /> 
+Elige el Archivo a Subir:
+<input name="archivo-a-subir" type="file" /><br />
+<input id="btn_subir" type="submit" value="Subir Archivo" />
+</form>
+</div>
+</body>
+</html>
